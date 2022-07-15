@@ -1,2 +1,3 @@
-# Connect2022
-Repositório criado para o curso presencial do Biopark Connect
+#curso connect
+
+Curso de programação para iniciantes.
