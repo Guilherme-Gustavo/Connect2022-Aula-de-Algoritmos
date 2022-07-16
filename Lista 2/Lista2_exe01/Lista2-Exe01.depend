@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1657041375 source:c:\users\alunos\desktop\guilherme\lista2-exe01\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1657026974 source:d:\biopark connect\algoritmos - prof. leonardo\lista 2\lista2_exe01\main.c
+	<stdio.h>
+	<stdlib.h>
+
