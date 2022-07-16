@@ -5,24 +5,6 @@
 
 int main()
 {
-
-    setlocale (LC_ALL, "Portuguese");
-    char resposta[4];
-    int resultado_maiusculo, resultado_minusculo;
-    printf("Responda à pergunta seguinte com \"Sim\" ou \"Não\".\n");
-    do{
-        printf("Olá tudo bem?\n");
-        scanf("%s", &resposta); //como pode ser visto, qualquer coisa que o usuário responder diferente de "Sim" ou "sim" vai entrar em loop fazendo a pergunta inicial. Não sei se tem outra maneira, mas tive que criar duas variáveis resposta para minúscula e maiúscula para aceitar isso. Se fosse pensar em todas as possíveis escritas de sim, seria 2*2*2=8 variáveis de comparação?
-        resultado_maiusculo=strcmp(resposta, "Sim");
-        resultado_minusculo=strcmp(resposta, "sim");
-        }while (resultado_maiusculo!=0 && resultado_minusculo!=0);
-
-    }
-
-    /* aqui temos um exemplo, caso o usuário queira responde sim mas usando caixa alta ou baxa alternada. Fiz as 8 possibilidades com a palavra "sim", a título de curiosidade.
-    int main()
-    {
-
     setlocale (LC_ALL, "Portuguese");
     char resposta[4];
     int resultado, valor=1;
@@ -48,5 +30,5 @@ int main()
             valor=strcmp(resposta, "sIM");
         }while (valor!=0);
 
-    } */
+    }
 

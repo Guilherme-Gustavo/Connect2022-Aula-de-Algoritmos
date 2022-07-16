@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1657973563 source:d:\biopark connect\algoritmos - prof. leonardo\lista 3\exe14_teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
