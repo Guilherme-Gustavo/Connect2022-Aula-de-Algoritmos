@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1658350842 source:c:\users\alunos\desktop\guilherme\vetor_exe05\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

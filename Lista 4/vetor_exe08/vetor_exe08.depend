@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1658396568 source:d:\biopark connect\algoritmos - prof. leonardo\lista 4\vetor_exe08\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
