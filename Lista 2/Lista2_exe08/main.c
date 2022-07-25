@@ -15,9 +15,9 @@ int main()
     else if (condicao=='b')
         printf("O valor a ser pago a vista no cartao de credito eh de: R$%.2f", preco*0.85);
     else if (condicao=='c')
-        printf("O valor a ser pago sera em duas parcelas de R$%.2f cada, totalizando R$%0.2f", preco/2 , preco);
+        printf("O valor a ser pago sera em duas parcelas de R$%.2f cada, totalizando R$%.2f", preco/2 , preco);
     else if (condicao=='d')
-        printf ("O valor a ser pago sera em duas parcelas de R$%.2f cada, totalizando R$%0.2f", 1.1*preco/2, 1.1*preco);
+        printf ("O valor a ser pago sera em duas parcelas de R$%.2f cada, totalizando R$%.2f", 1.1*preco/2, 1.1*preco);
     else
         printf("Condicao de pagamento invalida");
 

@@ -5,10 +5,10 @@ int main()
 {
    short int nivel;
    float horas, sal;
-   printf("Digite o nivel do professor: ");
+   printf("Digite o nivel do professor, 1, 2 ou 3: ");
    scanf("%d", &nivel);
    if (nivel==1 || nivel==2 || nivel==3){
-   printf("Digite a quantidade de horas: ");
+   printf("Digite a quantidade de horas trabalhadas: ");
    scanf("%f", &horas);
    if (nivel==1)
     printf ("O salario recebido pelo professor eh de: R$%.2f ", 12*horas*4.5);

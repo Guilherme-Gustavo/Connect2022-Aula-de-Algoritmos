@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1658747453 source:c:\users\guilherme\desktop\lista2_exe17\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

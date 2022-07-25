@@ -9,7 +9,7 @@ int main()
     printf("Escreva um numero B: ");
     scanf("%d", &B);
     if (A==B)
-        printf("Os numeros sao iguais eh a soma: %d ", A+B);
+        printf("Os numeros sao iguais e a soma eh: %d ", A+B);
     else
         printf("O produto entre eles eh: %d", A*B);
 }
