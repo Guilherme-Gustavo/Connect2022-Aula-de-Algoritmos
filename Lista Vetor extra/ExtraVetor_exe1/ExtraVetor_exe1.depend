@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1659113684 source:c:\users\alunos\desktop\g\lista vetor extra\extravetor_exe1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

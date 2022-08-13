@@ -7,7 +7,7 @@ int main()
 {
     setlocale(LC_ALL,"Portuguese");
 
-    int numero_casas=0, valor_canal=0, pessoas_can3=0, pessoas_can5=0, pessoas_can8=0, pessoas_can11=0, pessoas_can13, pessoas_total=0, total_can3=0, total_can5=0, total_can8=0, total_can11=0, total_can13=0;
+    int numero_casas=0, valor_canal=0, pessoas_can3=0, pessoas_can5=0, pessoas_can8=0, pessoas_can11=0, pessoas_can13=0, pessoas_total=0, total_can3=0, total_can5=0, total_can8=0, total_can11=0, total_can13=0;
 
     printf("Informe o numero total de casas visitadas: ");
     scanf("%d", &numero_casas);
@@ -56,13 +56,22 @@ int main()
        }
        }else printf("Canal invalido\n");
     }
-        printf("total canal 3: %d, pessoas totais: %d\n", total_can3, pessoas_total);
+        printf("total canal 3: %d\n\n", total_can3);
+        printf("total canal 3: %d\n\n", total_can5);
+        printf("total canal 3: %d\n\n", total_can8);
+        printf("total canal 3: %d\n\n", total_can11);
+        printf("total canal 3: %d\n\n", total_can13);
+        printf("Total de pessoas assitindo à TV: %d\n\n", pessoas_total);
 
+        if(pessoas_total>0){
         printf("A audiência do canal 03 é de: %.3f\n", (float) total_can3/pessoas_total*100,0);
         printf("A audiência do canal 05 é de: %.3f\n", (float) total_can5/pessoas_total*100,0);
         printf("A audiência do canal 08 é de: %.3f\n", (float) total_can8/pessoas_total*100,0);
         printf("A audiência do canal 11 é de: %.3f\n", (float) total_can11/pessoas_total*100,0);
         printf("A audiência do canal 13 é de: %.3f\n", (float) total_can13/pessoas_total*100,0);
+        }
+        else
+            printf("A audiência de todos os canais foi 0%, pois ninguém assistia à televisão.\n\n");
 
 }
 

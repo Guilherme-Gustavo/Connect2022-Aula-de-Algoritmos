@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1659124319 source:c:\users\alunos\desktop\g\lista vetor extra\extravetor_exe4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1659189046 source:d:\biopark connect\algoritmos - prof. leonardo\lista vetor extra\extravetor_exe4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -63,6 +63,7 @@ int main()
            }else printf("Código inválido. Digite outro código: \n");
        }while(codigo_bebida<0 || codigo_bebida>=6);
            valor_da_conta= valor_comida+ valor_bebida;
-           printf("O valor gasto em comida é de R$%.2f, o valor gasto em bebida é de R$%.2f e o valor total é de R$%.2f\n\n", valor_comida, valor_bebida, valor_da_conta);
+           printf("O valor gasto em comida é de R$%.2f, o valor gasto em bebida é de R$%.2f, totalizando R$%.2f.\n\n", valor_comida, valor_bebida, valor_da_conta);
         }while (valor_bebida!=0 || peso!=0);
+        printf("Obrigado pela preferência. Volte sempre!\n\n");
 }
